@@ -1,0 +1,18 @@
+body {
+	background-color: #283747;
+	color: #eeeeee;
+}
+
+.jumbotron {
+	background-color: #212F3C;
+}
+
+/* Button */
+
+.btn-default {
+	xbackground-color: #2ECC71;
+}
+
+.btn {
+	border-radius: 0;
+}
