@@ -1,17 +1,67 @@
 body {
-	background-color: #283747;
+	background-color: #C2185B;
 	color: #eeeeee;
 }
 
 .jumbotron {
-	background-color: #212F3C;
+	background-color: #AD1457;
 }
+
+/* Navbar */
+
+.navbar {
+	border-radius: 0;
+	margin-bottom: 0;
+}
+
+.navbar-default {
+	background-color: #880E4F;
+	border: 0;
+	color: #eeeeee;
+}
+
+.navbar-default .navbar-nav>.active>a {
+	background-color: #F44336;
+}
+
+.navbar-default .navbar-text, .navbar-default .navbar-nav>li>a,
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-brand,
+.navbar-default .navbar-brand:hover {
+	color: #eeeeee;
+}
+
+.navbar-default .navbar-toggle {
+	border: 0;
+}
+
+.navbar-default .navbar-toggle {
+	background-color: #F44336;
+	border-radius: 0;
+	margin: 0;
+	padding: 20px;
+
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #efefef;
+}
+
 
 /* Button */
 
 .btn-default {
-	xbackground-color: #2ECC71;
+	background-color: #F44336;
+	border: 0;
+	color: #eeeeee;
 }
+
+	.btn-default:hover,
+	.navbar-default .navbar-nav>.active>a:hover {
+		background-color: #D32F2F;
+		color: #eeeeee;
+	}
 
 .btn {
 	border-radius: 0;
